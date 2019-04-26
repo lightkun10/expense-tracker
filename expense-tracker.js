@@ -33,15 +33,7 @@ const account = {
 account.addExpense('Gym Membership', 120000)
 account.addExpense('Eat', 20000)
 account.addExpense('Dzakat', 5000)
-// console.log(account.getAccountSummary())
 
 account.addIncome('Clean dishes', 200000)
 account.addIncome('Clean the house', 100000)
 console.log(account.getAccountSummary())
-// console.log(account);
-
-// 1. add income array to account
-// 2. addIncome method -> description, amount
-// 3. Tweak getAccountSummary -- balance = income-expense
-
-// "Andrew Mead has a balance of $10. $100 in income. $90 in expenses."
